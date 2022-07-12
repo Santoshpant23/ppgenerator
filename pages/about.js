@@ -38,8 +38,8 @@ function About() {
 
                         If you have any suggestions on how I can improve this web-app then do let me know.
 
-                        This web-app is made by santosh pant as a hobby project and anyone who wish to contribute to this website can contact him at <span className={styles.span}>iamsantoshpant@gmail.com </span>  or can get connected with him in social media by following link
-                    </p>
+                        This web-app is made by santosh pant as a hobby project and anyone who wish to contribute to this website can contact him at  </p> <span className={styles.span}>iamsantoshpant@gmail.com </span> <p className={styles.para}>  or can get connected with him in social media by following link </p>
+
 
                     <button className={styles.btn}>
                         <a href="https://www.santoshpant.com.np/">
