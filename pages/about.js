@@ -17,10 +17,10 @@ function about() {
             />
             <nav className={styles.mainnav}>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/privacy-policy">Policy</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/privacy-policy">Policy</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
 
@@ -42,7 +42,7 @@ function about() {
                     </p>
 
                     <button className={styles.btn}>
-                        <a href="https://www.santoshpant.com.np/" target="_blank">
+                        <a href="https://www.santoshpant.com.np/">
                             Click Here
                         </a>
                     </button>
@@ -58,7 +58,7 @@ function about() {
                     <span className={styles.logo}>
                         <Image src="/logo.png" alt="ppgenerator logo" width={25} height={25} />
                     </span>
-                </Li>
+                </Link>
             </footer>
         </div>
     )

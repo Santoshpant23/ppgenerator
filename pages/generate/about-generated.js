@@ -6,6 +6,7 @@ import styles from '../../styles/Home.module.css'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 
 
@@ -50,10 +51,10 @@ const aboutgenerated = () => {
 
             <nav className={styles.mainnav}>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/privacy-policy">Policy</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/privacy-policy">Policy</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <main className={styles.main}>
@@ -80,8 +81,7 @@ const aboutgenerated = () => {
             <footer className={styles.footer}>
                 <a
                     href="https://www.ppgenerator.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+
                 >
                     Copyright @ ppgenerator 2022
                     <span className={styles.logo}>

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 
 
@@ -17,10 +18,10 @@ const Contact = () => {
 
             <nav className={styles.mainnav}>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/privacy-policy">Policy</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/privacy-policy">Policy</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <main className={styles.main}>
@@ -40,16 +41,16 @@ const Contact = () => {
                 </div>
             </main >
             <footer className={styles.footer}>
-                <a
+                <Link
                     href="https://www.ppgenerator.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+
+
                 >
                     Copyright @ ppgenerator 2022
                     <span className={styles.logo}>
                         <Image src="/logo.png" alt="ppgenerator logo" width={25} height={25} />
                     </span>
-                </a>
+                </Link>
             </footer>
         </div >
     )
