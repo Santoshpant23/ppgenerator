@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 
 
-const Contact = () => {
+const contact = () => {
     return (
         <div className={styles.container}>
             <NextSeo
@@ -32,10 +32,10 @@ const Contact = () => {
 
                     <p className={styles.para}>
 
-                        If you have any issue with this web-app or for any business related purpose then you can reach out to me either on mail or on social medias as well. All the necessary details are below: </p>  <br /> <br />
+                        If you have any issue with this web-app or for any business related purpose then you can reach out to me either on mail or on social medias as well. All the necessary details are below: </p>
 
 
-                    <p className={styles.para}>  Email:  iamsantoshpant@gmail.com  </p> <br />
+                    <p className={styles.para}>  Email:  iamsantoshpant@gmail.com  </p>
                     <p className={styles.para}>   Website: santoshpant.com.np </p>
 
 
@@ -57,5 +57,5 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default contact;
 
