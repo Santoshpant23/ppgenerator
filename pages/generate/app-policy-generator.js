@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo';
 
 
 
-const apppolicy = () => {
+const Apppolicy = () => {
     const [compname, setCompname] = useState("company");
     const [namee, setNamee] = useState("");
     const [contact, setContact] = useState("");
@@ -234,7 +234,7 @@ const apppolicy = () => {
                             <option value="Congo">Congo, Democratic Republic of the Congo</option>
                             <option value="Cook Islands">Cook Islands</option>
                             <option value="Costa Rica">Costa Rica</option>
-                            <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+                            <option value="Cote D'Ivoire">Cote D&apos;Ivoire</option>
                             <option value="Croatia">Croatia</option>
                             <option value="Cuba">Cuba</option>
                             <option value="Curacao">Curacao</option>
@@ -297,12 +297,12 @@ const apppolicy = () => {
                             <option value="Kazakhstan">Kazakhstan</option>
                             <option value="Kenya">Kenya</option>
                             <option value="Kiribati">Kiribati</option>
-                            <option value="Korea, Democratic People's Republic">Korea, Democratic People's..</option>
+                            <option value="Korea, Democratic People&apos;s Republic">Korea, Democratic People's..</option>
                             <option value="Korea">Korea, Republic of</option>
                             <option value="Kosovo">Kosovo</option>
                             <option value="Kuwait">Kuwait</option>
                             <option value="Kyrgyzstan">Kyrgyzstan</option>
-                            <option value="Lao People's Democratic Republic">Lao People's Democratic ...</option>
+                            <option value="Lao People&apos;s Democratic Republic">Lao People's Democratic ...</option>
                             <option value="Latvia">Latvia</option>
                             <option value="Lebanon">Lebanon</option>
                             <option value="Lesotho">Lesotho</option>
@@ -465,4 +465,4 @@ const apppolicy = () => {
     )
 }
 
-export default apppolicy
+export default Apppolicy

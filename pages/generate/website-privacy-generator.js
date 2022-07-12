@@ -11,7 +11,7 @@ import { NextSeo } from 'next-seo';
 
 
 
-const webprivacy = () => {
+const Webprivacy = () => {
 
     // const [data, setData] = useState({ name: "", url: "", cookies: false, email: "", ads: false, country: "Nepal" });
     const [namee, setNamee] = useState("");
@@ -208,7 +208,7 @@ const webprivacy = () => {
                             <option value="CD">Congo, Democratic Republic of the Congo</option>
                             <option value="CK">Cook Islands</option>
                             <option value="CR">Costa Rica</option>
-                            <option value="CI">Cote D'Ivoire</option>
+                            <option value="CI">Cote D&apos;Ivoire</option>
                             <option value="HR">Croatia</option>
                             <option value="CU">Cuba</option>
                             <option value="CW">Curacao</option>
@@ -271,12 +271,12 @@ const webprivacy = () => {
                             <option value="KZ">Kazakhstan</option>
                             <option value="KE">Kenya</option>
                             <option value="KI">Kiribati</option>
-                            <option value="KP">Korea, Democratic People's Republic of</option>
+                            <option value="KP">Korea, Democratic People&apos;s Republic of</option>
                             <option value="KR">Korea, Republic of</option>
                             <option value="XK">Kosovo</option>
                             <option value="KW">Kuwait</option>
                             <option value="KG">Kyrgyzstan</option>
-                            <option value="LA">Lao People's Democratic Republic</option>
+                            <option value="LA">Lao People&apos;s Democratic Republic</option>
                             <option value="LV">Latvia</option>
                             <option value="LB">Lebanon</option>
                             <option value="LS">Lesotho</option>
@@ -453,4 +453,4 @@ const webprivacy = () => {
     )
 }
 
-export default webprivacy
+export default Webprivacy

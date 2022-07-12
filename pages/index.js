@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -21,10 +22,10 @@ export default function Home() {
 
       <nav className={styles.mainnav}>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/privacy-policy">Policy</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/privacy-policy">Policy</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
 

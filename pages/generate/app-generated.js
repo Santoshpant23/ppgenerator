@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 
 
-const appgenerated = () => {
+const Appgenerated = () => {
     const router = useRouter();
     const query = router.query;
     const compname = query.compname;
@@ -206,4 +206,4 @@ const appgenerated = () => {
     )
 }
 
-export default appgenerated
+export default Appgenerated

@@ -35,7 +35,7 @@ const Contact = () => {
                         If you have any issue with this web-app or for any business related purpose then you can reach out to me either on mail or on social medias as well. All the necessary details are below:  <br /> <br />
 
                         <b>Email:</b>  <span className={styles.spancontact}>iamsantoshpant@gmail.com</span> <br /><br />
-                        <b>Website:</b>  <span className={styles.spaan} > <a href="https://www.santoshpant.com.np/" target='_blank'>santoshpant.com.np</a> </span>
+                        <b>Website:</b>  <span className={styles.spaan} > <a href="https://www.santoshpant.com.np/" >santoshpant.com.np</a> </span>
 
                     </p>
                 </div>

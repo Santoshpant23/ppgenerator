@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo';
 
 
 
-const apppolicy = () => {
+const AboutG = () => {
     // const [compname, setCompname] = useState("company");
     const [namee, setNamee] = useState("");
     const [category, setCategory] = useState("");
@@ -120,4 +120,4 @@ const apppolicy = () => {
     )
 }
 
-export default apppolicy
+export default AboutG

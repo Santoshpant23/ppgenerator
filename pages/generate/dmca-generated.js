@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 
 
-const appgenerated = () => {
+const DmcaGenerated = () => {
     const router = useRouter();
     const customId = "custom-id-yes";
 
@@ -132,4 +132,4 @@ I assure you that, I will remove the infringing content Within 48 Hours.`;
     )
 }
 
-export default appgenerated
+export default DmcaGenerated

@@ -14,7 +14,7 @@ import Link from 'next/link';
 
 
 
-const aboutgenerated = () => {
+const Aboutgenerated = () => {
     const router = useRouter();
     const query = router.query;
     const name = query.namee;
@@ -94,4 +94,4 @@ const aboutgenerated = () => {
     )
 }
 
-export default aboutgenerated
+export default Aboutgenerated

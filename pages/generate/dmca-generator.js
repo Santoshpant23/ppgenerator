@@ -12,7 +12,7 @@ import { NextSeo } from 'next-seo';
 
 
 
-const apppolicy = () => {
+const Dmca = () => {
     // const router = useRouter();
     const [compname, setCompname] = useState("company");
     const [email, setEmail] = useState("");
@@ -115,4 +115,4 @@ const apppolicy = () => {
     )
 }
 
-export default apppolicy
+export default Dmca

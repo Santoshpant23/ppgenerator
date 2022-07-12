@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 
 
-const generated = (props) => {
+const Generated = (props) => {
     const router = useRouter();
     // router.replace('/about', undefined, { shallow: true });
     const query = router.query;
@@ -112,15 +112,15 @@ const generated = (props) => {
 
                         <h2>  Log Files </h2> <br />
 
-                        <p>  {webname} follows a standard procedure of using log files.These files log visitors when they visit websites.All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol "IP" addresses, browser type, Internet Service Provider "ISP", date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. </p> <br />
+                        <p>  {webname} follows a standard procedure of using log files.These files log visitors when they visit websites.All hosting companies do this and a part of hosting services&apos; analytics. The information collected by log files include internet protocol &quot;IP&quot; addresses, browser type, Internet Service Provider &quot;ISP&quot;, date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&apos; movement on the website, and gathering demographic information. </p> <br />
 
                         <h2>   Cookies and Web Beacons </h2> <br />
 
-                        <p> Like any other website, {webname} uses 'cookies'.These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information. </p>
+                        <p> Like any other website, {webname} uses &apos;cookies&apos;.These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information. </p>
 
                         <h2>    Google DoubleClick DART Cookie </h2> <br />
 
-                        <p>  Google is one of a third - party vendor on our site.It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to {weburl} and other sites on the internet.However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – "https://policies.google.com/technologies/ads" </p>  <br />
+                        <p>  Google is one of a third - party vendor on our site.It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to {weburl} and other sites on the internet.However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – &quot;https://policies.google.com/technologies/ads&quot; </p>  <br />
 
                         <h2> Privacy Policies </h2> <br />
 
@@ -132,13 +132,13 @@ const generated = (props) => {
 
                         <h2> Third Pary Privacy Policies </h2> <br />
 
-                        <p>  {webname} 's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here:  </p> <br />
+                        <p>  {webname} &apos;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here:  </p> <br />
 
                         <h3>  Privacy Policy Links. </h3> <br />
 
-                        <p>  You can choose to disable cookies through your individual browser options.To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies? </p>  <br />
+                        <p>  You can choose to disable cookies through your individual browser options.To know more detailed information about cookie management with specific web browsers, it can be found at the browsers&apos; respective websites. What Are Cookies? </p>  <br />
 
-                        <h2>  Children's Information </h2> <br />
+                        <h2>  Children&apos;s Information </h2> <br />
 
                         <p>  Another part of our priority is adding protection for children while using the internet.We encourage parents and guardians to observe, participate in, and / or monitor and guide their online activity. </p> <br />
 
@@ -179,4 +179,4 @@ const generated = (props) => {
     )
 }
 
-export default generated
+export default Generated
