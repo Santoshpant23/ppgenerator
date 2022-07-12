@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 
 
@@ -48,7 +49,7 @@ function about() {
                 </div>
             </main>
             <footer className={styles.footer}>
-                <a
+                <Link
                     href="https://www.ppgenerator.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -57,7 +58,7 @@ function about() {
                     <span className={styles.logo}>
                         <Image src="/logo.png" alt="ppgenerator logo" width={25} height={25} />
                     </span>
-                </a>
+                </Li>
             </footer>
         </div>
     )
