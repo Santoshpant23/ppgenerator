@@ -1,22 +1,33 @@
-.container {
-  padding: 0 2rem;
-}
+ .container { 
+   /* padding: 0 2rem;  */
+   min-height: 100vh;
+   overflow: hidden;
+} 
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  
+  min-height: 65vh;
+  /* padding: 4rem 0; */
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+margin: 80px auto ;
+}
+.titlemain{
+  color: crimson;
+  text-decoration: none;
+  
 }
 
 .footer {
+  max-height: 100px;
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #cac4c4;
   justify-content: center;
   align-items: center;
 }
@@ -40,9 +51,11 @@
 }
 
 .title {
+  padding: 20px;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  cursor: pointer;
 }
 
 .title,
@@ -51,7 +64,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -114,3 +127,99 @@
     flex-direction: column;
   }
 }
+.mainnav ul{
+display: flex;
+justify-content: center;
+}
+.mainnav ul li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 5px 25px;
+}
+.mainnav ul li :hover{
+  color: grey;
+}
+.innerdiv{
+  width: 100%;
+  padding: 10px 50px; 
+}
+.para{
+  font-size: 19px;
+}
+.span{
+  font-weight: bold;
+}
+.btn{
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(244, 82, 82);
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  color: white;
+  background-color: rgb(125, 233, 125);
+}
+.spancontact{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+.spaan{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  
+}
+.label{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-right: 25px; */
+  display: block;
+  margin-bottom: 10px;
+}
+.input{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 100%;
+}
+.formfields{
+  margin-top: 20px;
+}
+.select{
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 18px;
+  min-width: 50%;
+}
+.labelradio{
+  margin: 0px 5px;
+  font-size: 20px;
+}
+.inputradio{
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+}
+.textarea{
+  border: 2px solid black;
+  font-size: 18px;
+  max-width: 800px;
+  min-width: 400px;
+  min-height: 400px;
+}
+.styletxt{
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
