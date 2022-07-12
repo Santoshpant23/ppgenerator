@@ -297,12 +297,12 @@ const Apppolicy = () => {
                             <option value="Kazakhstan">Kazakhstan</option>
                             <option value="Kenya">Kenya</option>
                             <option value="Kiribati">Kiribati</option>
-                            <option value="Korea, Democratic People&apos;s Republic">Korea, Democratic People's..</option>
+                            <option value="Korea, Democratic People&apos;s Republic">Korea, Democratic People&apos;s..</option>
                             <option value="Korea">Korea, Republic of</option>
                             <option value="Kosovo">Kosovo</option>
                             <option value="Kuwait">Kuwait</option>
                             <option value="Kyrgyzstan">Kyrgyzstan</option>
-                            <option value="Lao People&apos;s Democratic Republic">Lao People's Democratic ...</option>
+                            <option value="Lao People&apos;s Democratic Republic">Lao People&apos;s Democratic ...</option>
                             <option value="Latvia">Latvia</option>
                             <option value="Lebanon">Lebanon</option>
                             <option value="Lesotho">Lesotho</option>
