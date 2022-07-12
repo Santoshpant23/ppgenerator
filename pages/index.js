@@ -23,9 +23,9 @@ export default function Home() {
       <nav className={styles.mainnav}>
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/">About</Link></li>
+          <li><Link href="/about">About</Link></li>
           <li><Link href="/privacy-policy">Policy</Link></li>
-          <li><Link href="/">Contact</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
 
